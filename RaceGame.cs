@@ -9,6 +9,7 @@ using System.Text;
 using System.Threading;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using static System.Net.WebRequestMethods;
 
 namespace Race
 {
@@ -130,11 +131,17 @@ namespace Race
 				{
 					if (mainCar.Right < 500)
 						mainCar.Left += 50;
+					if (mainCar.Right > 500)
+						mainCar.Left = -50;
 				}
 				if (e.KeyCode == Keys.Left)
 				{
-					if (mainCar.Left > 0)
+					if (mainCar.Left >-50)
 						mainCar.Left -= 50;
+					if (mainCar.Left <=-50)
+						mainCar.Left = 467;
+
+
 				}
 			}
 			if (e.KeyCode == Keys.Up)
