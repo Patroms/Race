@@ -19,12 +19,11 @@ namespace Race
 		{
 			InitializeComponent();
 		}
-
-		Label[] LanesOne = new Label[5];
-		Label[] LanesTwo = new Label[5];
-		Label[] LanesMenuOne = new Label[5];
-		Label[] LanesMenuTwo = new Label[5];
-		Random random = new Random();
+		private Label[] LanesOne = new Label[5];
+		private Label[] LanesTwo = new Label[5];
+		private Label[] LanesMenuOne = new Label[5];
+		private Label[] LanesMenuTwo = new Label[5];
+		private Random random = new Random();
 		private int score = 0;
         private int coins = 0;
         private int carSpeed = 2;
@@ -140,8 +139,6 @@ namespace Race
 						mainCar.Left -= 50;
 					if (mainCar.Left <=-50)
 						mainCar.Left = 467;
-
-
 				}
 			}
 			if (e.KeyCode == Keys.Up)
