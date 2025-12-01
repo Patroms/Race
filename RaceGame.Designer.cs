@@ -129,7 +129,7 @@
             panelGame.Controls.Add(LaneOne1);
             panelGame.Controls.Add(MiddleLane);
             panelGame.Location = new Point(0, 0);
-            panelGame.Margin = new Padding(4, 4, 4, 4);
+            panelGame.Margin = new Padding(4);
             panelGame.Name = "panelGame";
             panelGame.Size = new Size(448, 650);
             panelGame.TabIndex = 0;
@@ -143,7 +143,7 @@
             panelPause.Controls.Add(pictureFlag);
             panelPause.Controls.Add(labelPause);
             panelPause.Location = new Point(0, 0);
-            panelPause.Margin = new Padding(4, 4, 4, 4);
+            panelPause.Margin = new Padding(4);
             panelPause.Name = "panelPause";
             panelPause.Size = new Size(451, 654);
             panelPause.TabIndex = 57;
@@ -170,7 +170,7 @@
             panelMenu.Controls.Add(MenuOneLane1);
             panelMenu.Controls.Add(label12);
             panelMenu.Location = new Point(0, 0);
-            panelMenu.Margin = new Padding(4, 4, 4, 4);
+            panelMenu.Margin = new Padding(4);
             panelMenu.Name = "panelMenu";
             panelMenu.Size = new Size(451, 650);
             panelMenu.TabIndex = 57;
@@ -178,8 +178,8 @@
             // buttonHelp
             // 
             buttonHelp.Font = new Font("Microsoft YaHei", 10F, FontStyle.Bold, GraphicsUnit.Point);
-            buttonHelp.Location = new Point(186, 483);
-            buttonHelp.Margin = new Padding(4, 4, 4, 4);
+            buttonHelp.Location = new Point(185, 490);
+            buttonHelp.Margin = new Padding(4);
             buttonHelp.Name = "buttonHelp";
             buttonHelp.Size = new Size(81, 37);
             buttonHelp.TabIndex = 82;
@@ -191,7 +191,7 @@
             // 
             buttonMenuExit.Font = new Font("Microsoft YaHei", 20.25F, FontStyle.Bold, GraphicsUnit.Point);
             buttonMenuExit.Location = new Point(143, 421);
-            buttonMenuExit.Margin = new Padding(4, 4, 4, 4);
+            buttonMenuExit.Margin = new Padding(4);
             buttonMenuExit.Name = "buttonMenuExit";
             buttonMenuExit.Size = new Size(154, 54);
             buttonMenuExit.TabIndex = 67;
@@ -203,7 +203,7 @@
             // 
             buttonStart.Font = new Font("Microsoft YaHei", 20.25F, FontStyle.Bold, GraphicsUnit.Point);
             buttonStart.Location = new Point(129, 336);
-            buttonStart.Margin = new Padding(4, 4, 4, 4);
+            buttonStart.Margin = new Padding(4);
             buttonStart.Name = "buttonStart";
             buttonStart.Size = new Size(186, 68);
             buttonStart.TabIndex = 65;
@@ -229,7 +229,7 @@
             CarMenu1.BackColor = Color.Transparent;
             CarMenu1.Image = (Image)resources.GetObject("CarMenu1.Image");
             CarMenu1.Location = new Point(14, 15);
-            CarMenu1.Margin = new Padding(4, 4, 4, 4);
+            CarMenu1.Margin = new Padding(4);
             CarMenu1.Name = "CarMenu1";
             CarMenu1.Size = new Size(59, 127);
             CarMenu1.SizeMode = PictureBoxSizeMode.Zoom;
@@ -241,7 +241,7 @@
             CarMenu3.BackColor = Color.Transparent;
             CarMenu3.Image = (Image)resources.GetObject("CarMenu3.Image");
             CarMenu3.Location = new Point(375, 30);
-            CarMenu3.Margin = new Padding(4, 4, 4, 4);
+            CarMenu3.Margin = new Padding(4);
             CarMenu3.Name = "CarMenu3";
             CarMenu3.Size = new Size(59, 127);
             CarMenu3.SizeMode = PictureBoxSizeMode.Zoom;
@@ -253,7 +253,7 @@
             CarMenu2.BackColor = Color.Transparent;
             CarMenu2.Image = (Image)resources.GetObject("CarMenu2.Image");
             CarMenu2.Location = new Point(150, 4);
-            CarMenu2.Margin = new Padding(4, 4, 4, 4);
+            CarMenu2.Margin = new Padding(4);
             CarMenu2.Name = "CarMenu2";
             CarMenu2.Size = new Size(59, 127);
             CarMenu2.SizeMode = PictureBoxSizeMode.Zoom;
@@ -385,7 +385,7 @@
             // 
             buttonExit.Font = new Font("Microsoft YaHei", 15.75F, FontStyle.Bold, GraphicsUnit.Point);
             buttonExit.Location = new Point(139, 555);
-            buttonExit.Margin = new Padding(4, 4, 4, 4);
+            buttonExit.Margin = new Padding(4);
             buttonExit.Name = "buttonExit";
             buttonExit.Size = new Size(178, 46);
             buttonExit.TabIndex = 53;
@@ -397,7 +397,7 @@
             // 
             buttonResume.Font = new Font("Microsoft YaHei", 22F, FontStyle.Bold, GraphicsUnit.Point);
             buttonResume.Location = new Point(139, 469);
-            buttonResume.Margin = new Padding(4, 4, 4, 4);
+            buttonResume.Margin = new Padding(4);
             buttonResume.Name = "buttonResume";
             buttonResume.Size = new Size(178, 67);
             buttonResume.TabIndex = 52;
@@ -410,7 +410,7 @@
             pictureFlag.BackColor = SystemColors.ControlDarkDark;
             pictureFlag.Image = (Image)resources.GetObject("pictureFlag.Image");
             pictureFlag.Location = new Point(-3, 124);
-            pictureFlag.Margin = new Padding(4, 4, 4, 4);
+            pictureFlag.Margin = new Padding(4);
             pictureFlag.Name = "pictureFlag";
             pictureFlag.Size = new Size(451, 364);
             pictureFlag.SizeMode = PictureBoxSizeMode.Zoom;
@@ -471,7 +471,7 @@
             towardCar2.BackColor = Color.Transparent;
             towardCar2.Image = (Image)resources.GetObject("towardCar2.Image");
             towardCar2.Location = new Point(14, 26);
-            towardCar2.Margin = new Padding(4, 4, 4, 4);
+            towardCar2.Margin = new Padding(4);
             towardCar2.Name = "towardCar2";
             towardCar2.Size = new Size(59, 127);
             towardCar2.SizeMode = PictureBoxSizeMode.Zoom;
@@ -483,7 +483,7 @@
             towardCar1.BackColor = Color.Transparent;
             towardCar1.Image = (Image)resources.GetObject("towardCar1.Image");
             towardCar1.Location = new Point(150, 15);
-            towardCar1.Margin = new Padding(4, 4, 4, 4);
+            towardCar1.Margin = new Padding(4);
             towardCar1.Name = "towardCar1";
             towardCar1.Size = new Size(59, 127);
             towardCar1.SizeMode = PictureBoxSizeMode.Zoom;
@@ -495,7 +495,7 @@
             towardCar3.BackColor = Color.Transparent;
             towardCar3.Image = (Image)resources.GetObject("towardCar3.Image");
             towardCar3.Location = new Point(375, 41);
-            towardCar3.Margin = new Padding(4, 4, 4, 4);
+            towardCar3.Margin = new Padding(4);
             towardCar3.Name = "towardCar3";
             towardCar3.Size = new Size(59, 127);
             towardCar3.SizeMode = PictureBoxSizeMode.Zoom;
@@ -507,7 +507,7 @@
             Coin3.BackColor = Color.Transparent;
             Coin3.Image = (Image)resources.GetObject("Coin3.Image");
             Coin3.Location = new Point(375, 257);
-            Coin3.Margin = new Padding(4, 4, 4, 4);
+            Coin3.Margin = new Padding(4);
             Coin3.Name = "Coin3";
             Coin3.Size = new Size(39, 37);
             Coin3.SizeMode = PictureBoxSizeMode.Zoom;
@@ -519,7 +519,7 @@
             Coin2.BackColor = Color.Transparent;
             Coin2.Image = (Image)resources.GetObject("Coin2.Image");
             Coin2.Location = new Point(258, 180);
-            Coin2.Margin = new Padding(4, 4, 4, 4);
+            Coin2.Margin = new Padding(4);
             Coin2.Name = "Coin2";
             Coin2.Size = new Size(39, 37);
             Coin2.SizeMode = PictureBoxSizeMode.Zoom;
@@ -531,7 +531,7 @@
             Coin1.BackColor = Color.Transparent;
             Coin1.Image = (Image)resources.GetObject("Coin1.Image");
             Coin1.Location = new Point(129, 291);
-            Coin1.Margin = new Padding(4, 4, 4, 4);
+            Coin1.Margin = new Padding(4);
             Coin1.Name = "Coin1";
             Coin1.Size = new Size(39, 37);
             Coin1.SizeMode = PictureBoxSizeMode.Zoom;
@@ -542,7 +542,7 @@
             // 
             buttonPause.Font = new Font("Microsoft YaHei", 12F, FontStyle.Bold, GraphicsUnit.Point);
             buttonPause.Location = new Point(0, 602);
-            buttonPause.Margin = new Padding(4, 4, 4, 4);
+            buttonPause.Margin = new Padding(4);
             buttonPause.Name = "buttonPause";
             buttonPause.Size = new Size(95, 44);
             buttonPause.TabIndex = 1;
@@ -556,7 +556,7 @@
             mainCar.BackgroundImageLayout = ImageLayout.None;
             mainCar.Image = (Image)resources.GetObject("mainCar.Image");
             mainCar.Location = new Point(258, 508);
-            mainCar.Margin = new Padding(4, 4, 4, 4);
+            mainCar.Margin = new Padding(4);
             mainCar.Name = "mainCar";
             mainCar.Size = new Size(59, 127);
             mainCar.SizeMode = PictureBoxSizeMode.Zoom;
@@ -705,7 +705,7 @@
             Controls.Add(panelGame);
             FormBorderStyle = FormBorderStyle.FixedToolWindow;
             KeyPreview = true;
-            Margin = new Padding(4, 4, 4, 4);
+            Margin = new Padding(4);
             Name = "RaceGame";
             SizeGripStyle = SizeGripStyle.Hide;
             StartPosition = FormStartPosition.CenterScreen;

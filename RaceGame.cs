@@ -18,12 +18,11 @@ namespace Race
 		{
 			InitializeComponent();
 		}
-
-		Label[] LanesOne = new Label[5];
-		Label[] LanesTwo = new Label[5];
-		Label[] LanesMenuOne = new Label[5];
-		Label[] LanesMenuTwo = new Label[5];
-		Random random = new Random();
+        private Label[] LanesOne = new Label[5];
+        private Label[] LanesTwo = new Label[5];
+		private Label[] LanesMenuOne = new Label[5];
+		private Label[] LanesMenuTwo = new Label[5];
+		private Random random = new Random();
 		private int score = 0;
         private int coins = 0;
         private int carSpeed = 2;
@@ -121,7 +120,6 @@ namespace Race
 			timerTowardCars.Stop();
 			panelMenu.Show();
 		}
-
 		private void RaceGame_KeyDown(object sender, KeyEventArgs e)
 		{
 			if (carSpeed != 0)
@@ -154,7 +152,6 @@ namespace Race
 				panelPause.Show();
 			}
 		}
-
 		private void timerTowardCars_Tick(object sender, EventArgs e)
 		{
 			towardCar1.Top += carSpeed + 4;
@@ -163,14 +160,12 @@ namespace Race
 				towardCar1.Top = -towardCar1.Height;
 				towardCar1.Left = random.Next(0, Width - towardCar1.Width);
 			}
-
 			towardCar2.Top += carSpeed + 2;
 			if (towardCar2.Top > Height)
 			{
 				towardCar2.Top = -towardCar2.Height;
 				towardCar2.Left = random.Next(0, Width - towardCar2.Width);
 			}
-
 			towardCar3.Top += carSpeed + 3;
 			if (towardCar3.Top > Height)
 			{
@@ -259,7 +254,6 @@ namespace Race
 			CarMenu1.Top += 5;
 			if (CarMenu1.Top > Height)
 			{
-
 				CarMenu1.Top = -CarMenu1.Height;
 				CarMenu1.Left = random.Next(0, Width - CarMenu1.Width);
 			}
@@ -276,26 +270,22 @@ namespace Race
 				CarMenu3.Left = random.Next(0, Width - CarMenu3.Width);
 			}
 		}
-
 		private void buttonPause_Click(object sender, EventArgs e)
 		{
 			timerRoad.Enabled = false;
 			timerTowardCars.Enabled = false;
 			panelPause.Show();
 		}
-
 		private void buttonResume_Click(object sender, EventArgs e)
 		{
 			timerRoad.Enabled = true;
 			timerTowardCars.Enabled = true;
 			panelPause.Hide();
 		}
-
 		private void buttonExit_Click(object sender, EventArgs e)
 		{
 			panelMenu.Show();
 		}
-
 		private void buttonHelp_Click(object sender, EventArgs e)
 		{
 			MessageBox.Show("Собирай монетки, не врезайся в машинки, за каждые 15 монеток дополнительная жизнь");
@@ -306,7 +296,6 @@ namespace Race
 			panelGame.Show();
 			panelMenu.Hide();
 		}
-
 		private void buttonMenuExit_Click(object sender, EventArgs e)
 		{
 			this.Close();
